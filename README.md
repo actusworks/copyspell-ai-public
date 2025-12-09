@@ -1,5 +1,6 @@
 ***CopySpell AI***
-
+##test##
+****test2****
 Contributors: actusanima
 Donate link: https://copyspell.ai
 Tags: woocommerce, ai, product descriptions, free ai, content generation
@@ -20,7 +21,7 @@ The only WooCommerce AI plugin that works 100% FREE. No paid subscriptions. Just
 
 Simply get your **free API keys** from Google AI Studio or Groq (takes 2 minutes), and our exclusive **Smart AI Routing™** technology handles everything else. No credit card. No monthly fees. No limits on what you can create.
 
-=How Is This Possible?=
+*How Is This Possible?*
 
 Our **Smart AI Routing™** technology is the secret. When you make a request:
 
