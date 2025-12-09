@@ -1,11 +1,5 @@
 ***CopySpell AI***
 
-##test##
-
-****test2****
-
-*****test3*****
-
 Contributors: actusanima
 Donate link: https://copyspell.ai
 Tags: woocommerce, ai, product descriptions, free ai, content generation
@@ -20,13 +14,13 @@ The only WooCommerce AI plugin that works 100% FREE. No paid subscriptions. Just
 
 **Description**
 
-*🎉 Premium AI Content - Zero AI Subscription Fees*
+**🎉 Premium AI Content - Zero AI Subscription Fees**
 
 **Stop paying monthly AI subscriptions!** CopySpell AI is the **only WooCommerce plugin** that generates professional product descriptions **without any paid AI subscription**. 
 
 Simply get your **free API keys** from Google AI Studio or Groq (takes 2 minutes), and our exclusive **Smart AI Routing™** technology handles everything else. No credit card. No monthly fees. No limits on what you can create.
 
-*How Is This Possible?*
+**How Is This Possible?**
 
 Our **Smart AI Routing™** technology is the secret. When you make a request:
 
@@ -37,7 +31,7 @@ Our **Smart AI Routing™** technology is the secret. When you make a request:
 
 **Result:** Reliable, high-quality content generation using only free API tiers.
 
-*Why CopySpell AI?*
+**Why CopySpell AI?**
 
 Writing product descriptions is time-consuming and repetitive. CopySpell AI leverages cutting-edge artificial intelligence to:
 
@@ -47,7 +41,7 @@ Writing product descriptions is time-consuming and repetitive. CopySpell AI leve
 * **Increase Conversions** – Persuasive, benefit-focused copy that sells
 * **Maintain Brand Voice** – Customizable tone and style to match your brand
 
-*✨ Premium-Quality Content*
+**✨ Premium-Quality Content**
 
 CopySpell AI doesn't just send your product data to an AI and hope for the best. Behind every generation is our **sophisticated prompting engine** – a professional-grade system that transforms your preferences into expertly crafted instructions.
 
@@ -69,7 +63,7 @@ Our server collects your product data and preferences (audience, tone, prioritie
 
 This isn't simple prompt templating – it's a professional system developed through extensive testing. The AI understands e-commerce psychology and writes copy that **actually sells**.
 
-= 🎯 Intelligent Refinement Suggestions =
+**🎯 Intelligent Refinement Suggestions**
 
 Want to customize the generated content? CopySpell AI offers **AI-powered refinement suggestions** that are remarkably intelligent and to-the-point:
 
@@ -80,7 +74,7 @@ Want to customize the generated content? CopySpell AI offers **AI-powered refine
 
 This isn't generic "regenerate" functionality – these are **contextual, intelligent suggestions** that understand what your content needs.
 
-= Key Features =
+**Key Features**
 
 **🆓 100% Free AI – Smart AI Routing™**
 Our proprietary technology automatically rotates through available AI models to ensure you always get a response. When one model hits rate limits, the system seamlessly switches to another. No paid subscriptions required – ever.
@@ -148,7 +142,7 @@ Never lose your work! CopySpell AI maintains a **complete history of all generat
 * Track how your content evolves over time
 * Perfect for A/B testing different approaches
 
-= How It Works =
+**How It Works**
 
 1. **Get Free API Keys** – Takes 2 minutes at Google AI Studio or Groq Console
 2. **Configure** – Add your keys and set your brand preferences
@@ -156,7 +150,7 @@ Never lose your work! CopySpell AI maintains a **complete history of all generat
 4. **Refine** – Use intelligent suggestions to perfect your content
 5. **Publish** – Review, approve, and publish with confidence
 
-= Perfect For =
+**Perfect For**
 
 * **Budget-conscious store owners** who don't want AI subscription fees
 * **Large catalogs** needing hundreds or thousands of descriptions
@@ -164,7 +158,7 @@ Never lose your work! CopySpell AI maintains a **complete history of all generat
 * **Marketing agencies** managing multiple e-commerce clients
 * **Anyone** who wants professional copy without the cost
 
-= Free & Pro Plugin Versions =
+**Free & Pro Plugin Versions**
 
 **✦ CopySpell AI Free:**
 
