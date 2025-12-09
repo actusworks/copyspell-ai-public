@@ -1,4 +1,5 @@
 === CopySpell AI ===
+
 Contributors: actusanima
 Donate link: https://copyspell.ai
 Tags: woocommerce, ai, product descriptions, free ai, content generation
