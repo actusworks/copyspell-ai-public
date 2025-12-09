@@ -1,4 +1,4 @@
-=== CopySpell AI ===
+*** CopySpell AI ***
 
 Contributors: actusanima
 Donate link: https://copyspell.ai
@@ -12,9 +12,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 The only WooCommerce AI plugin that works 100% FREE. No paid subscriptions. Just free API keys + Smart AI Routing™ = unlimited product descriptions.
 
-== Description ==
+** Description **
 
-= 🎉 Premium AI Content - Zero AI Subscription Fees =
+* 🎉 Premium AI Content - Zero AI Subscription Fees *
 
 **Stop paying monthly AI subscriptions!** CopySpell AI is the **only WooCommerce plugin** that generates professional product descriptions **without any paid AI subscription**. 
 
