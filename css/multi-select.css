@@ -1,0 +1,894 @@
+
+
+/* Multi-Select Component with Chips */
+.aai-multi-select {
+    position: relative;
+    width: 100%;
+}
+
+/* Custom Select Button */
+.aai-multi-select-btn {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(226, 232, 240, 0.8);
+    border-radius: 12px;
+    padding: 14px 48px 14px 16px;
+    font-size: 1rem;
+    font-family: inherit;
+    color: #2d3748;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    position: relative;
+}
+
+.aai-multi-select-btn:hover {
+    border-color: #667eea;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.aai-multi-select-btn.active,
+.aai-multi-select-btn:focus {
+    border-color: #667eea;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1), 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Dropdown Arrow */
+.aai-multi-select-arrow {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+}
+
+.aai-multi-select-btn.active .aai-multi-select-arrow {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.aai-multi-select-arrow svg {
+    width: 20px;
+    height: 20px;
+    fill: #667eea;
+}
+
+/* Placeholder Text */
+.aai-multi-select-placeholder {
+    color: #a0aec0;
+    font-style: italic;
+}
+
+.aai-multi-select-text {
+    color: #2d3748;
+    font-weight: 500;
+}
+
+/* Dropdown Options */
+.aai-multi-select-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 2px solid #667eea;
+    border-radius: 12px;
+    margin-top: 4px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 420px;
+    overflow-y: auto;
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.aai-multi-select-dropdown.show {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+/* Search Input */
+.aai-multi-select-search {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    outline: none;
+    background: #f8f9fa;
+    border-radius: 12px 12px 0 0;
+    color: #2d3748;
+}
+
+.aai-multi-select-search::placeholder {
+    color: #a0aec0;
+    font-style: italic;
+}
+
+.aai-multi-select-search:focus {
+    background: white;
+    border-bottom-color: #667eea;
+}
+
+/* Options Container */
+.aai-multi-select-options {
+    max-height: 360px;
+    overflow-y: auto;
+}
+
+/* Individual Option */
+.aai-multi-select-option {
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    color: #2d3748;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.3);
+}
+
+.aai-multi-select-option:last-child {
+    border-bottom: none;
+    border-radius: 0 0 12px 12px;
+}
+
+.aai-multi-select-option:hover {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    color: #667eea;
+}
+
+.aai-multi-select-option.selected {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #9aa9ea 0%, #8d7d9e 100%);
+    color: white;
+    font-weight: 600;
+}
+
+.aai-multi-select-option.selected:hover {
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+}
+
+/* Separator */
+.aai-multi-select-option.separator {
+    cursor: default;
+    background: #f8f9fa;
+    color: #a0aec0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    pointer-events: none;
+}
+
+/* Custom Checkbox */
+.aai-multi-select-checkbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #cbd5e0;
+    border-radius: 4px;
+    position: relative;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.aai-multi-select-option.selected .aai-multi-select-checkbox {
+    background: white;
+    border-color: white;
+}
+
+.aai-multi-select-checkbox::after {
+    content: '✓';
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    color: #667eea;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.aai-multi-select-option.selected .aai-multi-select-checkbox::after {
+    opacity: 1;
+    color: #667eea;
+}
+
+/* Chips Container */
+.aai-multi-select-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 12px;
+    min-height: 20px;
+    animation: fadeIn 0.3s ease;
+}
+
+/* Individual Chip */
+.aai-multi-select-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: var(--aai-colorB);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.25);
+    transition: all 0.3s ease;
+    animation: chipSlideIn 0.3s ease;
+}
+
+.aai-multi-select-chip:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.35);
+}
+
+/* Chip Remove Button */
+.aai-multi-select-chip-remove {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    line-height: 1;
+}
+
+.aai-multi-select-chip-remove:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Selected Count Badge */
+.aai-multi-select-count {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: var(--aai-colorC);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2px;
+    border-radius: 30px;
+    margin: 0 8px;
+    box-shadow: 0 2px 4px rgba(72, 187, 120, 0.3);
+}
+
+/* Scrollbar Styling */
+.aai-multi-select-options::-webkit-scrollbar {
+    width: 6px;
+}
+
+.aai-multi-select-options::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.aai-multi-select-options::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 3px;
+}
+
+.aai-multi-select-options::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes chipSlideIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8) translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* No Results State */
+.aai-multi-select-no-results {
+    padding: 20px;
+    text-align: center;
+    color: #a0aec0;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .aai-multi-select-chips {
+        gap: 6px;
+        max-width: calc(100% - 32px); /* Adjust for padding */
+    }
+    
+    .aai-multi-select-chip {
+        font-size: 12px;
+        padding: 6px 10px;
+        gap: 6px;
+    }
+    
+    .aai-multi-select-dropdown {
+        max-height: 340px;
+    }
+    
+    .aai-multi-select-options {
+        max-height: 280px;
+    }
+}
+
+/* Focus States for Accessibility */
+.aai-multi-select-option:focus,
+.aai-multi-select-chip-remove:focus {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    .aai-multi-select-btn {
+        border-width: 3px;
+    }
+    
+    .aai-multi-select-chip {
+        border: 2px solid #333;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    .aai-multi-select-dropdown,
+    .aai-multi-select-chip,
+    .aai-multi-select-arrow {
+        transition: none;
+    }
+    
+    .aai-multi-select-chips {
+        animation: none;
+    }
+    
+    .aai-multi-select-chip {
+        animation: none;
+    }
+}
+
+
+
+
+
+
+.aai-multi-select-option.create-new {
+    background-color: #f0f9ff;
+    border: 1px dashed #0369a1;
+    color: #0369a1;
+    font-style: italic;
+}
+.aai-multi-select-option.create-new:hover {
+    background-color: #e0f2fe;
+}
+.aai-multi-select-option.create-new .aai-multi-select-checkbox {
+    background-color: transparent;
+    border: 1px dashed #0369a1;
+}
+.aai-multi-select-option.create-new .aai-multi-select-checkbox::after {
+    content: '+';
+    color: #0369a1;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1;
+}
+
+
+
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* MARK: Search As You Type (SAYT) Component Styles */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+/* 
+ * The main container for the input field and loader. 
+ * `position: relative` is crucial for placing the loader.
+ */
+.aai-sayt-container {
+    position: relative;
+ }
+.aai-sayt-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* 
+ * The primary input field, styled to match the MultiSelect button.
+ */
+.aai-sayt-input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(226, 232, 240, 0.8);
+    border-radius: 12px;
+    padding: 14px 48px 14px 16px; /* Right padding makes room for the loader */
+    font-size: 1rem;
+    font-family: inherit;
+    color: #2d3748;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.aai-sayt-input::placeholder {
+    color: #a0aec0;
+    font-style: italic;
+}
+
+.aai-sayt-input:hover {
+    border-color: #667eea;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.aai-sayt-input:focus {
+    border-color: #667eea;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1), 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 
+ * The loading spinner that appears during an API call.
+ */
+.aai-sayt-loader {
+    display: none; /* Hidden by default, shown via JS */
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(102, 126, 234, 0.2);
+    border-top-color: #667eea;
+    border-radius: 50%;
+    animation: sayt-spin 0.8s linear infinite;
+}
+
+@keyframes sayt-spin {
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
+/* 
+ * The dropdown container, styled identically to the MultiSelect dropdown.
+ */
+.aai-sayt-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 2px solid #667eea;
+    border-radius: 12px;
+    margin-top: 4px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 280px; /* Adjust as needed */
+    overflow-y: auto;
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.aai-sayt-dropdown.show {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+/* 
+ * The scrollable area within the dropdown.
+ * Using the same scrollbar styles as MultiSelect.
+ */
+.aai-sayt-options {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.aai-sayt-options::-webkit-scrollbar {
+    width: 6px;
+}
+
+.aai-sayt-options::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.aai-sayt-options::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 3px;
+}
+
+.aai-sayt-options::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+}
+
+/* 
+ * Individual selectable option. Very similar to MultiSelect's, but without the checkbox.
+ */
+.aai-sayt-option {
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 15px;
+    color: #2d3748;
+    border-bottom: 1px solid rgba(226, 232, 240, 0.3);
+}
+
+.aai-sayt-option:last-child {
+    border-bottom: none;
+    border-radius: 0 0 12px 12px;
+}
+
+.aai-sayt-option:hover,
+.aai-sayt-option:focus { /* Added focus state for keyboard navigation */
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    color: #667eea;
+    outline: none; /* Use a background color for focus instead of an outline */
+}
+
+/* 
+ * The container for chips in multiple selection mode.
+ * Styled identically to the MultiSelect chips container.
+ */
+.aai-sayt-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+    min-height: 20px;
+    animation: fadeIn 0.3s ease;
+}
+
+/*
+ * NOTE: The `.aai-multi-select-chip` styles from your original CSS
+ * are automatically applied because the JS class reuses them. No new styles needed.
+ */
+
+/* 
+ * The message shown when a search yields no results.
+ */
+.aai-sayt-no-results {
+    padding: 20px;
+    text-align: center;
+    color: #a0aec0;
+    font-style: italic;
+}
+
+/*
+ * Add focus state for accessibility to options.
+ */
+.aai-sayt-option:focus {
+    outline: 2px solid #667eea;
+    outline-offset: -2px; /* Inset outline to avoid layout shift */
+}
+
+/* 
+ * Apply reduced motion preferences.
+ */
+@media (prefers-reduced-motion: reduce) {
+    .aai-sayt-loader {
+        animation: none;
+    }
+    .aai-sayt-dropdown {
+        transition: none;
+    }
+}
+
+
+
+
+
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* MARK: Styles for "Allow Add Items" Feature             */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+/* 
+ * Style for the special "Add '...'" option in the dropdown.
+ */
+.aai-sayt-option-new {
+    background-color: #f0fff4; /* A light green background */
+    color: #38a169; /* A darker green text color */
+    font-style: italic;
+    font-weight: 500;
+    border-left: 3px solid #48bb78; /* A green left border to make it stand out */
+    position: relative;
+    padding-left: 40px; /* Make space for the icon */
+}
+
+/* 
+ * Use a pseudo-element to add a '+' icon.
+ */
+.aai-sayt-option-new::before {
+    content: '+';
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 1.2em;
+    font-style: normal;
+    line-height: 1;
+}
+
+.aai-sayt-option-new:hover,
+.aai-sayt-option-new:focus {
+    background-color: #e6fffa;
+    color: #2c7a7b;
+    border-left-color: #38b2ac;
+}
+
+
+
+
+
+
+
+
+
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+/* MARK: Styles for Editor Modal Feature                  */
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+/* Adjust input wrapper to hold the settings button */
+.aai-sayt-input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.aai-sayt-input {
+    flex-grow: 1; /* Make input take up available space */
+}
+
+/* Settings button inside the input field */
+.aai-sayt-settings-btn {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 4px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    color: #a0aec0;
+}
+.aai-sayt-settings-btn:hover {
+    color: #667eea;
+    background-color: rgba(102, 126, 234, 0.1);
+}
+.aai-sayt-settings-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+/* Make space for both loader and settings button */
+.aai-sayt-input-wrapper .aai-sayt-loader {
+    right: 48px; /* Move loader to the left */
+}
+.aai-sayt-input {
+    padding-right: 80px; /* More padding for both icons */
+}
+
+/* Modal Overlay */
+.aai-sayt-editor-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(10, 10, 20, 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease;
+}
+
+/* Modal Panel */
+.aai-sayt-editor-modal {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh;
+    animation: slideInUp 0.4s ease-out;
+}
+
+@keyframes slideInUp {
+    from { transform: translateY(30px) scale(0.98); opacity: 0; }
+    to { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+/* Modal Header */
+.aai-sayt-editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border-bottom: 1px solid #e2e8f0;
+}
+.aai-sayt-editor-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #2d3748;
+}
+.aai-sayt-editor-close-btn {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: #a0aec0;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    transition: color 0.2s;
+}
+.aai-sayt-editor-close-btn:hover {
+    color: #2d3748;
+}
+
+/* Modal Content and Table */
+.aai-sayt-editor-content {
+    padding: 24px;
+    overflow-y: auto;
+}
+.aai-sayt-editor-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.aai-sayt-editor-table th,
+.aai-sayt-editor-table td {
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 1px solid #edf2f7;
+}
+.aai-sayt-editor-table th {
+    font-size: 0.8rem;
+    color: #718096;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Editable input fields in the table */
+.aai-sayt-editor-input {
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #4a5568;
+    background-color: transparent;
+    transition: all 0.2s ease;
+}
+.aai-sayt-editor-input:hover {
+    background-color: #f7fafc;
+}
+.aai-sayt-editor-input:focus {
+    background-color: white;
+    border-color: #667eea;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}
+
+/* Remove button in table row */
+.aai-sayt-editor-remove-btn {
+    background: #fef2f2;
+    border: none;
+    color: #ef4444;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.aai-sayt-editor-remove-btn:hover {
+    background: #ef4444;
+    color: white;
+}
+
+/* Modal Footer */
+.aai-sayt-editor-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 16px 24px;
+    border-top: 1px solid #e2e8f0;
+    background-color: #f8f9fa;
+    border-radius: 0 0 16px 16px;
+}
+.aai-sayt-editor-cancel-btn,
+.aai-sayt-editor-save-btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.aai-sayt-editor-cancel-btn {
+    background-color: #e2e8f0;
+    color: #4a5568;
+}
+.aai-sayt-editor-cancel-btn:hover {
+    background-color: #cbd5e0;
+}
+.aai-sayt-editor-save-btn {
+    background-color: #667eea;
+    color: white;
+}
+.aai-sayt-editor-save-btn:hover {
+    background-color: #5a67d8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

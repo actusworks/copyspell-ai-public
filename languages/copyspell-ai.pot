@@ -1,0 +1,1305 @@
+# Copyright (C) 2025 Actus Anima
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: CopySpell AI 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/copyspell-ai\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-27T12:51:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: copyspell-ai\n"
+
+#. Plugin Name of the plugin
+#: copyspell-ai.php
+#: php/copyspell-ai-updater.php:334
+msgid "CopySpell AI"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: copyspell-ai.php
+msgid "https://copyspell.ai"
+msgstr ""
+
+#. Description of the plugin
+#: copyspell-ai.php
+msgid "AI-Powered Product Descriptions for WooCommerce"
+msgstr ""
+
+#. Author of the plugin
+#: copyspell-ai.php
+msgid "Actus Anima"
+msgstr ""
+
+#. Author URI of the plugin
+#: copyspell-ai.php
+msgid "https://actus.works"
+msgstr ""
+
+#: copyspell-ai.php:197
+#: php/copyspell-ai-admin-menu.php:109
+#: php/copyspell-ai-strings.php:202
+#: js/backend/admin-home.js:222
+#: js/backend/admin-license.js:532
+msgid "Settings"
+msgstr ""
+
+#: php/copyspell-ai-admin-menu.php:60
+msgid "Actus Anima - We build reliable, feature-rich WordPress plugins to help you get more from your website. Quality, security, and ease of use are at the core of everything we create."
+msgstr ""
+
+#: php/copyspell-ai-admin-menu.php:63
+msgid "Empowering WordPress websites with innovative solutions."
+msgstr ""
+
+#: php/copyspell-ai-admin-menu.php:89
+msgid "CopySpell AI Logo"
+msgstr ""
+
+#: php/copyspell-ai-admin-menu.php:103
+msgid "Home"
+msgstr ""
+
+#: php/copyspell-ai-admin-menu.php:106
+msgid "Bulk generation"
+msgstr ""
+
+#: php/copyspell-ai-admin-menu.php:112
+#: php/copyspell-ai-strings.php:225
+#: js/backend/admin-home.js:108
+#: js/backend/admin-license.js:566
+msgid "License"
+msgstr ""
+
+#: php/copyspell-ai-admin-menu.php:116
+#: php/copyspell-ai-strings.php:78
+#: js/shared/AI/ai-settings-UI.js:501
+msgid "Rate CopySpell AI"
+msgstr ""
+
+#: php/copyspell-ai-ajax.php:31
+#: php/copyspell-ai-ajax.php:86
+msgid "You do not have sufficient permissions."
+msgstr ""
+
+#: php/copyspell-ai-ajax.php:73
+msgid "Error loading option."
+msgstr ""
+
+#: php/copyspell-ai-ajax.php:199
+msgid "Error saving settings."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:7
+msgid "Loading..."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:8
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:9
+#: js/shared/AI/ai-content.js:268
+#: js/shared/AI/ai-content.js:277
+#: js/shared/AI/ai-result-product.js:980
+msgid "Back"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:10
+msgid "Cancel"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:11
+#: js/shared/AI/ai-result-product.js:982
+msgid "Continue"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:12
+#: js/shared/AI/ai-result-product.js:983
+msgid "Update Product"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:13
+msgid "Refine Post Content"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:14
+msgid "Refine Product Info"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:15
+msgid "Refine Product Information"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:16
+msgid "Suggestions"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:17
+msgid "Title"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:18
+#: js/shared/AI/ai-result-product.js:442
+msgid "Select a Description"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:19
+msgid "Description"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:20
+#: js/shared/AI/ai-result-product.js:313
+#: js/shared/AI/ai-result-product.js:372
+#: js/shared/AI/ai-result-product.js:434
+msgid "Select a suggestion"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:21
+#: js/shared/AI/ai-result-product.js:382
+msgid "Select a Short Description"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:22
+msgid "Short description"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:23
+#: js/shared/AI/ai-result-product.js:872
+msgid "Please select a suggestion for title, short description, or description."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:24
+msgid "new title suggestion"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:25
+msgid "new description suggestion"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:26
+msgid "new suggestion"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:27
+#: js/shared/AI/ai-result-product.js:1005
+msgid "select a refined title, excerpt or description..."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:28
+msgid "Content Strategy"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:29
+#: js/shared/AI/ai-settings-UI.js:385
+msgid "Content Length"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:30
+#: js/shared/AI/ai-settings-UI.js:394
+msgid "Short Description Length"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:31
+#: js/shared/AI/ai-settings-UI.js:293
+msgid "Response Language"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:32
+#: js/shared/AI/ai-settings-UI.js:125
+#: js/shared/AI/ai-settings-UI.js:163
+#: js/shared/AI/ai-settings-UI.js:198
+#: js/shared/AI/ai-settings-UI.js:431
+msgid "optional"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:33
+#: js/shared/AI/ai-settings-UI.js:124
+msgid "Target Keywords"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:34
+#: js/shared/AI/ai-settings-UI.js:131
+msgid "Primary Keywords"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:35
+#: js/shared/AI/ai-settings-UI.js:133
+msgid "e.g. running shoes, home decor, phone case"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:36
+#: js/shared/AI/ai-settings-UI.js:139
+msgid "Secondary Keywords"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:37
+#: js/shared/AI/ai-settings-UI.js:140
+msgid "e.g. casual sneakers, stylish pet collars and leashes, eco-friendly office supplies"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:38
+#: js/shared/AI/ai-settings-UI.js:134
+msgid "Get Keywords with AI"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:39
+msgid "Product Features"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:40
+#: js/shared/AI/ai-settings-UI.js:162
+msgid "Product Info"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:41
+msgid "Key Features"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:42
+msgid "List the main features that make your product unique. Each feature should highlight a specific benefit or capability that sets your product apart from competitors."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:43
+#: js/shared/AI/ai-settings-UI.js:170
+msgid "Unique Selling Proposition"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:44
+#: js/shared/AI/ai-settings-UI.js:171
+msgid "What makes this product stand out from the competition? What's the one thing this product does better than anyone else?"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:45
+msgid "Desired Call to Action"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:46
+msgid "e.g. Buy Now, Learn More, Get Started, Download Free Trial"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:47
+#: js/shared/AI/ai-settings-UI.js:174
+msgid "Extra Product Info"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:48
+#: js/shared/AI/ai-settings-UI.js:175
+msgid "Extra information about the product that might be useful for the AI to generate content."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:49
+#: js/shared/AI/ai-settings-UI.js:197
+msgid "Brand Tone"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:50
+#: js/shared/AI/ai-settings-UI.js:205
+msgid "Describe your brand’s tone and style..."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:51
+#: js/shared/AI/ai-settings-UI.js:230
+msgid "Target Audience"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:52
+#: js/shared/AI/ai-settings-UI.js:250
+msgid "Tone of Voice"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:53
+#: js/shared/AI/ai-settings-UI.js:271
+msgid "Content Priorities"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:54
+#: js/shared/AI/ai-settings-UI.js:414
+msgid "Marketing Framework"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:55
+#: js/shared/AI/ai-marketing.js:506
+#: js/shared/AI/ai-settings-UI.js:525
+msgid "AI analysis"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:59
+#: php/copyspell-ai-strings.php:192
+#: js/backend/admin-home.js:288
+#: js/backend/interface.js:176
+msgid "Documentation"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:60
+msgid "No results found."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:61
+#: js/backend/admin-license.js:88
+msgid "Save"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:62
+#: php/copyspell-ai-strings.php:113
+msgid "Save Changes"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:63
+msgid "Saving..."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:64
+msgid "Changes saved successfully."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:65
+msgid "Error saving changes. Please try again."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:68
+msgid "AI Suggestions"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:69
+#: js/shared/AI/ai-result-product.js:273
+#: js/shared/AI/ai-settings-UI.js:18
+msgid "AI Suggestions for"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:70
+#: js/shared/AI/ai-result-product.js:287
+#: js/shared/AI/ai-settings-UI.js:31
+msgid "Woocomerce Product"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:71
+#: js/shared/AI/ai-result-product.js:289
+#: js/shared/AI/ai-settings-UI.js:33
+msgid "Last updated"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:72
+#: js/shared/AI/ai-result-product.js:322
+msgid "Select a Product Title"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:73
+msgid "Product Title"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:74
+msgid "Choose a compelling title that captures attention"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:75
+#: js/shared/AI/ai-settings-UI.js:450
+msgid "Generate AI Content"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:76
+msgid "Generate"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:77
+#: js/shared/AI/ai-marketing.js:300
+msgid "Create"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:79
+#: js/shared/AI/ai-content.js:178
+msgid "Product Information Improvement"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:80
+#: js/shared/AI/ai-marketing.js:261
+msgid "Marketing Tools"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:81
+#: js/shared/AI/ai-result-product.js:981
+msgid "Preview"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:82
+#: js/shared/AI/ai-result-product.js:910
+msgid "Original Content"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:83
+#: js/shared/AI/ai-result-product.js:932
+msgid "AI Content"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:84
+#: js/shared/AI/ai-settings-UI.js:431
+msgid "Extra Prompt"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:85
+#: js/shared/AI/ai-settings-UI.js:432
+msgid "Provide any additional instructions or context for the AI..."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:86
+#: js/shared/AI/ai-settings-UI.js:82
+msgid "Automatic Model Sequence"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:87
+msgid "preferred model"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:88
+#: js/shared/MultiSelect.js:367
+msgid "selection"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:89
+#: js/shared/MultiSelect.js:367
+msgid "selections"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:90
+#: js/shared/AI/ai-settings-UI.js:74
+msgid "First model in the sequence:"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:91
+msgid "Sources"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:92
+msgid "words"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:93
+msgid "The sources you selected are very large and may exceed the limits of the AI engine."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:94
+msgid "Add URL"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:95
+msgid "Your own source"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:96
+msgid "Add a URL to your own source"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:97
+msgid "Cannot parse this URL"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:98
+msgid "More Results"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:99
+#: js/shared/AI/ai-result-product.js:1224
+msgid "just now"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:100
+#: js/shared/AI/ai-result-product.js:1226
+#: js/shared/AI/ai-settings-UI.js:576
+msgid "1 minute ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:101
+#: js/shared/AI/ai-result-product.js:1228
+#: js/shared/AI/ai-settings-UI.js:578
+msgid "minutes ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:102
+#: js/shared/AI/ai-result-product.js:1230
+#: js/shared/AI/ai-settings-UI.js:580
+msgid "1 hour ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:103
+#: js/shared/AI/ai-result-product.js:1232
+#: js/shared/AI/ai-settings-UI.js:582
+msgid "hours ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:104
+#: js/shared/AI/ai-result-product.js:1234
+#: js/shared/AI/ai-settings-UI.js:584
+msgid "1 day ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:105
+#: js/shared/AI/ai-result-product.js:1236
+#: js/shared/AI/ai-settings-UI.js:586
+msgid "days ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:106
+#: js/shared/AI/ai-result-product.js:1238
+#: js/shared/AI/ai-settings-UI.js:588
+msgid "1 week ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:107
+#: js/shared/AI/ai-result-product.js:1240
+#: js/shared/AI/ai-settings-UI.js:590
+msgid "weeks ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:108
+#: js/shared/AI/ai-result-product.js:1242
+#: js/shared/AI/ai-settings-UI.js:592
+msgid "1 month ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:109
+#: js/shared/AI/ai-result-product.js:1244
+#: js/shared/AI/ai-settings-UI.js:594
+msgid "months ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:110
+#: js/shared/AI/ai-result-product.js:1246
+#: js/shared/AI/ai-settings-UI.js:596
+msgid "1 year ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:111
+#: js/shared/AI/ai-result-product.js:1248
+#: js/shared/AI/ai-settings-UI.js:598
+msgid "years ago"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:112
+#: js/shared/AI/ai-result-product.js:1228
+#: js/shared/AI/ai-result-product.js:1232
+#: js/shared/AI/ai-result-product.js:1236
+#: js/shared/AI/ai-result-product.js:1240
+#: js/shared/AI/ai-result-product.js:1244
+#: js/shared/AI/ai-result-product.js:1248
+#: js/shared/AI/ai-settings-UI.js:578
+#: js/shared/AI/ai-settings-UI.js:582
+#: js/shared/AI/ai-settings-UI.js:586
+#: js/shared/AI/ai-settings-UI.js:590
+#: js/shared/AI/ai-settings-UI.js:594
+#: js/shared/AI/ai-settings-UI.js:598
+msgid ": "
+msgstr ""
+
+#: php/copyspell-ai-strings.php:114
+msgid "View Original"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:115
+msgid "Changes Saved"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:116
+msgid "You can edit the text and remove the parts that are not relevant."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:117
+#: js/backend/CopyspellEdit.js:1044
+#: js/shared/AI/ai-result-product.js:520
+msgid "Custom changes"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:118
+#: js/shared/AI/ai-result-product.js:1086
+msgid "Revisions"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:119
+#: js/shared/AI/ai-common.js:237
+#: js/shared/AI/ai-result-product.js:754
+msgid "How would you like me to change this content?"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:120
+msgid "Search"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:121
+msgid "search for"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:122
+msgid "search..."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:123
+#: js/backend/CopyspellEdit.js:1042
+#: js/shared/AI/ai-marketing.js:641
+#: js/shared/AI/ai-result-product.js:518
+msgid "Make it longer"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:124
+#: js/backend/CopyspellEdit.js:1043
+#: js/shared/AI/ai-marketing.js:642
+#: js/shared/AI/ai-result-product.js:519
+msgid "Make it shorter"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:125
+#: js/shared/AI/ai-result-product.js:315
+#: js/shared/AI/ai-result-product.js:374
+#: js/shared/AI/ai-result-product.js:436
+msgid "Oops—no response from the model. Please try another model or tweak your prompt and try again"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:126
+#: js/shared/AI/ai-content.js:267
+#: js/shared/AI/ai-content.js:276
+#: js/shared/AI/ai-marketing.js:775
+msgid "Try again"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:127
+msgid "No valid response from any model in the sequence."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:128
+msgid "No response from model:"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:129
+msgid "License required"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:130
+msgid "Trial Expired"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:131
+#: js/shared/AI/ai-settings-UI.js:461
+msgid "Configure AI Providers"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:132
+#: js/shared/AI/ai-settings-UI.js:95
+msgid "No valid AI providers found."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:133
+#: js/shared/AI/ai-settings-UI.js:96
+msgid "Please configure your AI providers."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:135
+msgid "Trial Expired — Upgrade to Pro."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:136
+msgid "Your CopySpell AI trial has expired. Free generations are no longer available. Upgrade to the Pro License to get unlimited generations, priority support and lifetime updates."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:137
+msgid "LIMITED TIME"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:138
+msgid "Early Bird Offer"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:139
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:140
+#: js/shared/AI/ai-settings-UI.js:471
+msgid "Upgrade to Pro for unlimited requests"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:141
+msgid "Maybe later"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:142
+msgid "One-time payment • No AI subscription • No monthly fees"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:143
+#: php/copyspell-ai-strings.php:241
+#: js/shared/AI/ai-settings-UI.js:472
+msgid "TRIAL."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:144
+#: php/copyspell-ai-strings.php:243
+#: js/backend/admin-license.js:479
+#: js/shared/AI/ai-settings-UI.js:472
+msgid "Remaining requests:"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:147
+#: js/backend/CopyspellEdit.js:259
+msgid "Suggest 5 titles"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:148
+#: js/backend/CopyspellEdit.js:628
+msgid "Suggest 3 short descriptions"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:149
+#: js/backend/CopyspellEdit.js:416
+msgid "Suggest 2 descriptions"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:150
+msgid "Refinement"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:151
+#: js/shared/AI/ai-marketing.js:634
+msgid "refine the content—what would you like different?..."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:162
+msgid "Welcome to CopySpell AI!"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:163
+#: js/backend/admin-home.js:152
+msgid "Welcome aboard! You've just equipped your store with a powerful content assistant. Configure your AI settings and start generating high-impact product content in minutes."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:164
+#: js/backend/admin-home.js:150
+msgid "Getting Started"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:165
+#: js/backend/admin-home.js:165
+msgid "Configure AI Settings"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:166
+#: js/backend/admin-home.js:166
+msgid "Go to the settings page and add your AI provider API keys. You can start for free with a Google AI Studio or a Groq key to unlock powerful content generation."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:167
+#: js/backend/admin-home.js:168
+msgid "GO TO SETTINGS"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:168
+#: js/backend/admin-home.js:173
+msgid "Generate Your First Content"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:169
+#: js/backend/admin-home.js:174
+msgid "Navigate to any WooCommerce product page. You'll find the new CopySpell AI panel ready to transform your product details into compelling copy."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:170
+#: js/backend/admin-home.js:175
+msgid "GO TO PRODUCTS"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:171
+#: js/backend/admin-home.js:181
+msgid "Fine-tune the results by selecting a tone, audience, and strategy. Preview the suggestions and apply them to your product with a single click."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:172
+#: js/backend/admin-home.js:180
+msgid "Customize & Apply"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:173
+#: js/backend/admin-home.js:185
+msgid "LEARN MORE"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:174
+#: js/backend/admin-home.js:214
+#: js/backend/admin-home.js:215
+msgid "You have"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:175
+#: js/backend/admin-home.js:213
+msgid "You have no providers enabled"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:176
+#: js/backend/admin-home.js:214
+#: js/backend/admin-home.js:215
+msgid "providers enabled"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:177
+#: js/backend/admin-home.js:242
+msgid "Plugin Features"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:178
+#: js/backend/admin-home.js:245
+msgid "Intelligent Content Generation"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:179
+#: js/backend/admin-home.js:249
+msgid "Advanced Customization"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:180
+#: js/backend/admin-home.js:253
+msgid "Multi-Provider Reliability"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:181
+#: js/backend/admin-home.js:257
+msgid "Seamless WooCommerce Integration"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:182
+#: js/backend/admin-home.js:261
+msgid "Smart Keyword Generation"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:183
+#: js/backend/admin-home.js:265
+msgid "Built-in SEO Optimization"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:184
+#: js/backend/admin-home.js:246
+msgid "Instantly create SEO-optimized titles, compelling short descriptions, and rich, formatted long descriptions from basic product info."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:185
+#: js/backend/admin-home.js:250
+msgid "Tailor every output with 24+ tones, 30+ audiences, and 22+ content strategies to perfectly match your brand voice."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:186
+#: js/backend/admin-home.js:254
+msgid "Our smart failover system uses multiple AI providers like Google Gemini to ensure 99.9% uptime and avoid service interruptions."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:187
+#: js/backend/admin-home.js:258
+msgid "Built specifically for WooCommerce. Intuitive interface and zero learning curve."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:188
+#: js/backend/admin-home.js:262
+msgid "Let AI analyze your product title and details to automatically generate a list of relevant SEO keywords. Use them to fine-tune your content and attract more organic traffic."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:189
+#: js/backend/admin-home.js:266
+msgid "Generate content designed to rank. Our AI focuses on creating titles and descriptions that improve your organic search performance."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:190
+#: js/backend/admin-home.js:289
+msgid "Read our comprehensive documentation for detailed setup instructions and guides on advanced features."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:191
+#: js/backend/admin-home.js:285
+msgid "Need Help?"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:193
+#: js/backend/admin-home.js:290
+msgid "View Documentation"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:194
+#: js/backend/admin-home.js:293
+msgid "Support"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:195
+#: js/backend/admin-home.js:294
+msgid "Need assistance? Our support team is here to help you get the most out of CopySpell AI."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:196
+#: js/backend/admin-home.js:295
+msgid "Get Support"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:197
+#: js/backend/admin-settings.js:515
+msgid "Model Sequences"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:198
+#: js/backend/admin-settings.js:525
+msgid "During an AI request, the plugin starts with the first model in the defined sequence. If that model fails—for example, due to rate limits—it automatically tries the next one, continuing until it either finds a working model or exhausts the entire sequence."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:199
+#: js/backend/admin-settings.js:528
+msgid "You can configure separate model sequences for main AI calls and for keyword extraction."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:200
+#: js/backend/admin-settings.js:380
+msgid "General Settings"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:201
+#: js/backend/admin-settings.js:387
+msgid "AI models"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:203
+#: js/backend/admin-home.js:222
+#: js/backend/admin-settings.js:384
+msgid "API Settings"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:204
+#: js/backend/admin-settings.js:410
+#: js/backend/admin-settings.js:518
+msgid "Save Settings"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:205
+#: js/backend/admin-settings.js:631
+#: js/backend/admin-settings.js:660
+#: js/backend/admin-settings.js:689
+#: js/backend/admin-settings.js:720
+msgid "To use"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:206
+#: js/backend/admin-settings.js:631
+#: js/backend/admin-settings.js:660
+#: js/backend/admin-settings.js:689
+msgid "features, you need an API key from."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:207
+#: js/backend/admin-settings.js:632
+#: js/backend/admin-settings.js:661
+#: js/backend/admin-settings.js:690
+#: js/backend/admin-settings.js:721
+msgid "You must be logged in with your"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:208
+#: js/backend/admin-settings.js:720
+msgid "Models, you need a token from"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:209
+#: js/backend/admin-home.js:220
+#: js/backend/admin-settings.js:497
+msgid "You have not configured any AI providers yet. To get started:"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:210
+msgid "Go to the"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:211
+#: js/backend/admin-home.js:222
+msgid "Go to"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:212
+msgid "tab."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:213
+#: js/backend/admin-home.js:223
+#: js/backend/admin-settings.js:499
+msgid "Enter your API keys"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:214
+#: js/backend/admin-home.js:225
+#: js/backend/admin-settings.js:501
+msgid "Get free API keys from"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:215
+#: js/backend/admin-home.js:225
+#: js/backend/admin-home.js:226
+#: js/backend/admin-settings.js:501
+#: js/backend/admin-settings.js:502
+msgid "or"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:216
+#: js/backend/admin-home.js:226
+#: js/backend/admin-settings.js:502
+msgid "Use your own"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:217
+#: js/backend/admin-home.js:226
+#: js/backend/admin-settings.js:502
+msgid "keys"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:218
+#: js/backend/admin-home.js:228
+#: js/backend/admin-settings.js:504
+msgid "Click"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:219
+#: js/backend/admin-home.js:228
+#: js/backend/admin-settings.js:504
+msgid "to verify each API key"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:220
+#: js/backend/admin-settings.js:556
+#: js/backend/admin-settings.js:582
+msgid "Restore Default Sequence"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:221
+#: js/backend/admin-settings.js:534
+msgid "Main Sequence"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:222
+#: js/backend/admin-settings.js:560
+msgid "Keywords Sequence"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:223
+#: js/backend/admin-settings.js:369
+msgid "Plugin Settings"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:224
+#: js/backend/admin-settings.js:371
+msgid "Configure your plugin settings and API keys"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:226
+#: js/backend/admin-license.js:621
+msgid "License key"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:227
+#: js/backend/admin-license.js:629
+msgid "Enter your license key"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:228
+#: js/backend/admin-license.js:84
+#: js/backend/admin-license.js:108
+#: js/backend/admin-license.js:631
+msgid "Activate"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:229
+#: js/backend/admin-license.js:130
+#: js/backend/admin-license.js:632
+msgid "Deactivate"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:230
+#: js/backend/admin-license.js:637
+msgid "Get a License Key from Actus Works"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:231
+#: js/backend/admin-license.js:452
+#: js/backend/admin-license.js:508
+msgid "You have not entered a license key yet."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:232
+#: js/backend/admin-license.js:483
+msgid "Your license key has expired."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:233
+#: js/backend/admin-license.js:488
+msgid "Your trial has expired."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:234
+#: js/backend/admin-license.js:492
+msgid "Your license key is invalid."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:235
+#: js/backend/admin-license.js:496
+msgid "Your license key is inactive."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:236
+#: js/backend/admin-license.js:500
+msgid "Your license key has been deactivated."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:237
+#: js/backend/admin-license.js:504
+msgid "Your license key has been revoked."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:238
+#: js/backend/admin-license.js:457
+msgid "Licensed to:"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:239
+#: js/backend/admin-license.js:469
+msgid "Manage Your Subscription"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:240
+#: js/backend/admin-license.js:484
+msgid "Renew Your Subscription"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:242
+#: js/backend/admin-license.js:477
+msgid "Trial License:"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:244
+#: js/backend/admin-license.js:465
+#: js/backend/admin-license.js:467
+msgid "Expires at:"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:245
+msgid "License Status"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:246
+msgid "active"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:247
+msgid "inactive"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:248
+msgid "invalid"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:249
+msgid "expired"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:250
+msgid "expired trial"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:251
+msgid "no key"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:252
+msgid "deactivated"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:253
+msgid "revoked"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:254
+msgid "max activations reached"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:255
+#: js/backend/admin-license.js:472
+msgid "Activations:"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:256
+msgid "Please activate a license key to access all features."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:257
+#: js/backend/admin-license.js:119
+msgid "Are you sure you want to deactivate your license key? The key will be cleared. Make sure you have a copy available."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:258
+msgid "Enable <a href='https:wordpress.org/documentation/article/revisions/#revision-options' target='_blank'>revisions</a> to prevent losing your existing content."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:260
+#: js/backend/admin-license.js:535
+msgid "Now you need an AI API key."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:261
+#: js/backend/admin-license.js:536
+msgid "Get a free API key from Google"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:262
+#: js/backend/admin-license.js:536
+msgid "and add it in the Settings tab."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:264
+msgid "Connection error occurred"
+msgstr ""
+
+#: php/copyspell-ai-strings.php:265
+msgid "Request timed out. The server may be down or unresponsive."
+msgstr ""
+
+#: php/copyspell-ai-strings.php:266
+msgid "Server is unavailable. It may have restarted or be down."
+msgstr ""
+
+#: php/copyspell-ai-updater.php:326
+msgid "An error occurred when trying to retrieve plugin information."
+msgstr ""
+
+#: php/copyspell-ai-updater.php:347
+msgid "AI-Powered Product Descriptions for WooCommerce."
+msgstr ""
+
+#: php/copyspell-ai-updater.php:348
+msgid "No changelog provided."
+msgstr ""
+
+#: js/backend/admin-home.js:119
+msgid "Enable <a href='https://wordpress.org/documentation/article/revisions/#revision-options' target='_blank'>revisions</a> to prevent losing your existing content."
+msgstr ""
+
+#: js/backend/admin-home.js:151
+msgid "Welcome to Copyspell AI!"
+msgstr ""
+
+#: js/backend/BulkMonitor.js:61
+msgid "Bulk Jobs"
+msgstr ""
+
+#: js/backend/interface.js:49
+msgid "Error loading credits"
+msgstr ""
+
+#: js/backend/interface.js:124
+msgid "Credits"
+msgstr ""
+
+#: js/shared/AI/ai-call.js:53
+msgid "No API keys configured. Please set up your AI provider API keys in the settings."
+msgstr ""
+
+#: js/shared/AI/ai-settings-UI.js:574
+msgid "Just now"
+msgstr ""

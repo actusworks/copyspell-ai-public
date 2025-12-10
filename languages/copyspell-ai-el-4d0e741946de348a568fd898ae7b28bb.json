@@ -1,0 +1,168 @@
+{
+    "translation-revision-date": "2025-11-27 14:53+0200",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "js\/shared\/AI\/ai-settings-UI.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "el",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Rate CopySpell AI": [
+                "\u0391\u03be\u03b9\u03bf\u03bb\u03bf\u03b3\u03ae\u03c3\u03c4\u03b5 \u03c4\u03bf CopySpell AI"
+            ],
+            "Content Length": [
+                "\u039c\u03ae\u03ba\u03bf\u03c2 \u03a0\u03b5\u03c1\u03b9\u03b3\u03c1\u03b1\u03c6\u03ae\u03c2"
+            ],
+            "Short Description Length": [
+                "\u039c\u03ae\u03ba\u03bf\u03c2 \u03a3\u03cd\u03bd\u03c4\u03bf\u03bc\u03b7\u03c2 \u03a0\u03b5\u03c1\u03b9\u03b3\u03c1\u03b1\u03c6\u03ae\u03c2"
+            ],
+            "Response Language": [
+                "\u0393\u03bb\u03ce\u03c3\u03c3\u03b1"
+            ],
+            "optional": [
+                "\u03c0\u03c1\u03bf\u03b1\u03b9\u03c1\u03b5\u03c4\u03b9\u03ba\u03cc"
+            ],
+            "Target Keywords": [
+                "\u039b\u03ad\u03be\u03b5\u03b9\u03c2-\u03ba\u03bb\u03b5\u03b9\u03b4\u03b9\u03ac (keywords)"
+            ],
+            "Primary Keywords": [
+                "\u039a\u03cd\u03c1\u03b9\u03b1 Keywords"
+            ],
+            "e.g. running shoes, home decor, phone case": [
+                "\u03c0.\u03c7. \u03c0\u03b1\u03c0\u03bf\u03cd\u03c4\u03c3\u03b9\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03c1\u03ad\u03be\u03b9\u03bc\u03bf, \u03b4\u03b9\u03b1\u03ba\u03bf\u03c3\u03bc\u03b7\u03c4\u03b9\u03ba\u03ac \u03c3\u03c0\u03b9\u03c4\u03b9\u03bf\u03cd, \u03b8\u03ae\u03ba\u03b7 \u03ba\u03b9\u03bd\u03b7\u03c4\u03bf\u03cd \u03c4\u03b7\u03bb\u03b5\u03c6\u03ce\u03bd\u03bf\u03c5"
+            ],
+            "Secondary Keywords": [
+                "\u0394\u03b5\u03c5\u03c4\u03b5\u03c1\u03b5\u03cd\u03bf\u03bd\u03c4\u03b1 Keywords"
+            ],
+            "e.g. casual sneakers, stylish pet collars and leashes, eco-friendly office supplies": [
+                "\u03c0.\u03c7. \u03ba\u03b1\u03b8\u03b7\u03bc\u03b5\u03c1\u03b9\u03bd\u03ac \u03b1\u03b8\u03bb\u03b7\u03c4\u03b9\u03ba\u03ac \u03c0\u03b1\u03c0\u03bf\u03cd\u03c4\u03c3\u03b9\u03b1, \u03c3\u03c4\u03c5\u03bb\u03ac\u03c4\u03b1 \u03ba\u03bf\u03bb\u03ac\u03c1\u03b1 \u03ba\u03b1\u03b9 \u03bb\u03bf\u03c5\u03c1\u03b9\u03ac \u03b3\u03b9\u03b1 \u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03af\u03b4\u03b9\u03b1, \u03bf\u03b9\u03ba\u03bf\u03bb\u03bf\u03b3\u03b9\u03ba\u03ac \u03b5\u03af\u03b4\u03b7 \u03b3\u03c1\u03b1\u03c6\u03b5\u03af\u03bf\u03c5"
+            ],
+            "Get Keywords with AI": [
+                "\u039b\u03ae\u03c8\u03b7 Keywords \u03bc\u03b5 AI"
+            ],
+            "Product Info": [
+                "\u03a0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03af\u03b5\u03c2 \u03a0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03bf\u03c2"
+            ],
+            "Unique Selling Proposition": [
+                "\u039c\u03bf\u03bd\u03b1\u03b4\u03b9\u03ba\u03ae \u03a0\u03c1\u03cc\u03c4\u03b1\u03c3\u03b7 \u03a0\u03ce\u03bb\u03b7\u03c3\u03b7\u03c2 (USP)"
+            ],
+            "What makes this product stand out from the competition? What's the one thing this product does better than anyone else?": [
+                "\u03a4\u03b9 \u03ba\u03ac\u03bd\u03b5\u03b9 \u03b1\u03c5\u03c4\u03cc \u03c4\u03bf \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd \u03bd\u03b1 \u03be\u03b5\u03c7\u03c9\u03c1\u03af\u03b6\u03b5\u03b9 \u03b1\u03c0\u03cc \u03c4\u03bf\u03bd \u03b1\u03bd\u03c4\u03b1\u03b3\u03c9\u03bd\u03b9\u03c3\u03bc\u03cc; \u03a0\u03bf\u03b9\u03bf \u03b5\u03af\u03bd\u03b1\u03b9 \u03c4\u03bf \u03ad\u03bd\u03b1 \u03c0\u03c1\u03ac\u03b3\u03bc\u03b1 \u03c0\u03bf\u03c5 \u03ba\u03ac\u03bd\u03b5\u03b9 \u03b1\u03c5\u03c4\u03cc \u03c4\u03bf \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd \u03ba\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b1 \u03b1\u03c0\u03cc \u03bf\u03c0\u03bf\u03b9\u03bf\u03b4\u03ae\u03c0\u03bf\u03c4\u03b5 \u03ac\u03bb\u03bb\u03bf;"
+            ],
+            "Extra Product Info": [
+                "\u0395\u03c0\u03b9\u03c0\u03bb\u03ad\u03bf\u03bd \u03a0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03af\u03b5\u03c2 \u03a0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03bf\u03c2"
+            ],
+            "Extra information about the product that might be useful for the AI to generate content.": [
+                "\u0395\u03c0\u03b9\u03c0\u03bb\u03ad\u03bf\u03bd \u03c0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03af\u03b5\u03c2 \u03c3\u03c7\u03b5\u03c4\u03b9\u03ba\u03ac \u03bc\u03b5 \u03c4\u03bf \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd \u03c0\u03bf\u03c5 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c7\u03c1\u03ae\u03c3\u03b9\u03bc\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b7 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03af\u03b1 \u03c0\u03b5\u03c1\u03b9\u03b5\u03c7\u03bf\u03bc\u03ad\u03bd\u03bf\u03c5."
+            ],
+            "Brand Tone": [
+                "\u038e\u03c6\u03bf\u03c2 \u03c4\u03bf\u03c5 Brand"
+            ],
+            "Describe your brand\u2019s tone and style...": [
+                "\u03a0\u03b5\u03c1\u03b9\u03b3\u03c1\u03ac\u03c8\u03c4\u03b5 \u03c4\u03bf\u03bd \u03c4\u03cc\u03bd\u03bf \u03ba\u03b1\u03b9 \u03c4\u03bf \u03c3\u03c4\u03c5\u03bb \u03c4\u03b7\u03c2 \u03b5\u03c0\u03c9\u03bd\u03c5\u03bc\u03af\u03b1\u03c2 \u03c3\u03b1\u03c2..."
+            ],
+            "Target Audience": [
+                "\u03a3\u03c4\u03bf\u03c7\u03b5\u03c5\u03bc\u03ad\u03bd\u03bf \u039a\u03bf\u03b9\u03bd\u03cc"
+            ],
+            "Tone of Voice": [
+                "\u038e\u03c6\u03bf\u03c2 \u0393\u03c1\u03b1\u03c6\u03ae\u03c2"
+            ],
+            "Content Priorities": [
+                "\u03a0\u03c1\u03bf\u03c4\u03b5\u03c1\u03b1\u03b9\u03cc\u03c4\u03b7\u03c4\u03b5\u03c2"
+            ],
+            "Marketing Framework": [
+                ""
+            ],
+            "AI analysis": [
+                "\u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 AI"
+            ],
+            "AI Suggestions for": [
+                "\u03a0\u03c1\u03bf\u03c4\u03ac\u03c3\u03b5\u03b9\u03c2 AI \u03b3\u03b9\u03b1"
+            ],
+            "Woocomerce Product": [
+                ""
+            ],
+            "Last updated": [
+                "\u03a4\u03b5\u03bb\u03b5\u03c5\u03c4\u03b1\u03af\u03b1 \u03b5\u03bd\u03b7\u03bc\u03ad\u03c1\u03c9\u03c3\u03b7"
+            ],
+            "Generate AI Content": [
+                "\u0394\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03af\u03b1 \u03a0\u03b5\u03c1\u03b9\u03b5\u03c7\u03bf\u03bc\u03ad\u03bd\u03bf\u03c5 AI"
+            ],
+            "Extra Prompt": [
+                "\u0395\u03c0\u03b9\u03c0\u03bb\u03ad\u03bf\u03bd \u039f\u03b4\u03b7\u03b3\u03af\u03b5\u03c2"
+            ],
+            "Provide any additional instructions or context for the AI...": [
+                "\u03a0\u03b9\u03b8\u03b1\u03bd\u03ad\u03c2 \u03c0\u03c1\u03cc\u03c3\u03b8\u03b5\u03c4\u03b5\u03c2 \u03bf\u03b4\u03b7\u03b3\u03af\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03c4\u03b5\u03c7\u03bd\u03b7\u03c4\u03ae \u03bd\u03bf\u03b7\u03bc\u03bf\u03c3\u03cd\u03bd\u03b7..."
+            ],
+            "Automatic Model Sequence": [
+                "\u0391\u03c5\u03c4\u03cc\u03bc\u03b1\u03c4\u03b7 \u0391\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03af\u03b1 \u039c\u03bf\u03bd\u03c4\u03ad\u03bb\u03c9\u03bd"
+            ],
+            "First model in the sequence:": [
+                "\u03a0\u03c1\u03ce\u03c4\u03bf \u03bc\u03bf\u03bd\u03c4\u03ad\u03bb\u03bf \u03c3\u03c4\u03b7\u03bd \u03b1\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03af\u03b1:"
+            ],
+            "1 minute ago": [
+                "\u03c0\u03c1\u03b9\u03bd \u03b1\u03c0\u03cc \u03ad\u03bd\u03b1 \u03bb\u03b5\u03c0\u03c4\u03cc"
+            ],
+            "minutes ago": [
+                "\u03bb\u03b5\u03c0\u03c4\u03ac"
+            ],
+            "1 hour ago": [
+                "\u03c0\u03c1\u03b9\u03bd \u03b1\u03c0\u03cc \u03bc\u03af\u03b1 \u03ce\u03c1\u03b1"
+            ],
+            "hours ago": [
+                "\u03ce\u03c1\u03b5\u03c2"
+            ],
+            "1 day ago": [
+                "\u03c0\u03c1\u03b9\u03bd \u03b1\u03c0\u03cc 1 \u03b7\u03bc\u03ad\u03c1\u03b1"
+            ],
+            "days ago": [
+                "\u03b7\u03bc\u03ad\u03c1\u03b5\u03c2"
+            ],
+            "1 week ago": [
+                "\u03c0\u03c1\u03b9\u03bd \u03b1\u03c0\u03cc 1 \u03b5\u03b2\u03b4\u03bf\u03bc\u03ac\u03b4\u03b1"
+            ],
+            "weeks ago": [
+                "\u03b5\u03b2\u03b4\u03bf\u03bc\u03ac\u03b4\u03b5\u03c2"
+            ],
+            "1 month ago": [
+                "\u03c0\u03c1\u03b9\u03bd \u03b1\u03c0\u03cc 1 \u03bc\u03ae\u03bd\u03b1"
+            ],
+            "months ago": [
+                "\u03bc\u03ae\u03bd\u03b5\u03c2"
+            ],
+            "1 year ago": [
+                "\u03c0\u03c1\u03b9\u03bd \u03b1\u03c0\u03cc 1 \u03c7\u03c1\u03cc\u03bd\u03bf"
+            ],
+            "years ago": [
+                "\u03c7\u03c1\u03cc\u03bd\u03b9\u03b1"
+            ],
+            ": ": [
+                ": \u03c0\u03c1\u03b9\u03bd \u03b1\u03c0\u03cc "
+            ],
+            "Configure AI Providers": [
+                "\u0394\u03b9\u03b1\u03bc\u03cc\u03c1\u03c6\u03c9\u03c3\u03b7 \u03a0\u03b1\u03c1\u03cc\u03c7\u03c9\u03bd AI"
+            ],
+            "No valid AI providers found.": [
+                "\u0394\u03b5\u03bd \u03b2\u03c1\u03ad\u03b8\u03b7\u03ba\u03b1\u03bd \u03ad\u03b3\u03ba\u03c5\u03c1\u03bf\u03b9 \u03c0\u03ac\u03c1\u03bf\u03c7\u03bf\u03b9 AI."
+            ],
+            "Please configure your AI providers.": [
+                "\u03a0\u03b1\u03c1\u03b1\u03ba\u03b1\u03bb\u03ce \u03c1\u03c5\u03b8\u03bc\u03af\u03c3\u03c4\u03b5 \u03c4\u03bf\u03c5\u03c2 \u03c0\u03b1\u03c1\u03cc\u03c7\u03bf\u03c5\u03c2 AI."
+            ],
+            "Upgrade to Pro for unlimited requests": [
+                "\u0391\u03bd\u03b1\u03b2\u03b1\u03b8\u03bc\u03af\u03c3\u03c4\u03b5 \u03c3\u03b5 Pro \u03b3\u03b9\u03b1 \u03b1\u03c0\u03b5\u03c1\u03b9\u03cc\u03c1\u03b9\u03c3\u03c4\u03b5\u03c2 \u03ba\u03bb\u03ae\u03c3\u03b5\u03b9\u03c2"
+            ],
+            "TRIAL.": [
+                ""
+            ],
+            "Remaining requests:": [
+                "\u039a\u03bb\u03ae\u03c3\u03b5\u03b9\u03c2 \u03c0\u03bf\u03c5 \u03b1\u03c0\u03bf\u03bc\u03ad\u03bd\u03bf\u03c5\u03bd:"
+            ],
+            "Just now": [
+                "\u039c\u03cc\u03bb\u03b9\u03c2 \u03c4\u03ce\u03c1\u03b1"
+            ]
+        }
+    }
+}

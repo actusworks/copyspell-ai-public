@@ -1,0 +1,8 @@
+{
+  "frontend.js": {
+    "file": "frontend.BPRADi_B.js",
+    "name": "frontend",
+    "src": "frontend.js",
+    "isEntry": true
+  }
+}

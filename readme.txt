@@ -4,7 +4,7 @@ Donate link: https://copyspell.ai
 Tags: woocommerce, ai, product descriptions, free ai, content generation
 Requires at least: 5.8
 Tested up to: 6.9
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -301,6 +301,23 @@ Smart AI Routing™ tries multiple models in sequence. In the rare case all mode
 
 == Changelog ==
 
+= 2.0.4 =
+* Added new API providers manager
+* refactor and cleanup
+
+= 2.0.3 =
+* Added a new Addons Manager
+* Database refactor
+
+= 2.0.2 =
+* Refactor settings panel
+* Minor Fixes
+
+= 2.0.1 =
+* Add model selection on Marketing
+* Add domain verification
+* Minor fixes
+
 = 2.0 =
 * Major release with enhanced bulk processing
 * Added marketing content generator
@@ -364,6 +381,9 @@ Full documentation is available at [copyspell.ai/user-guide](https://copyspell.a
 
 = Privacy Policy =
 
+* [CopySpell AI Privacy Policy](https://copyspell.ai/privacy-policy/)
+* [CopySpell AI Terms of Service](https://copyspell.ai/terms-of-service/)
+
 CopySpell AI is designed with your privacy in mind. Here's exactly how your data is handled:
 
 **How It Works:**
@@ -378,17 +398,48 @@ When you generate content, your product data is sent to our proxy server at copy
 **Why a Proxy Server?**
 The proxy architecture enables our Smart AI Routing™ technology to work efficiently and allows us to maintain and update AI model sequences without requiring plugin updates.
 
-**Third-Party Services:**
-Your product data is sent to AI providers for content generation. Please review their privacy policies:
-* [Google AI Privacy Policy](https://policies.google.com/privacy)
-* [Groq Privacy Policy](https://groq.com/privacy-policy/)
+
+== External services ==
+
+= AI Service (copyspell.actusanima.com) =
+When you first activate the plugin, it sends your domain and site name and your admin email to our server, so you get a unique signature for your free credits.
+The plugin connects to our API to generate your AI content. It sends your provider's API keys, your product data and your preferences to our API. Our Smart AI Routing system, routes your data to the AI providers, using your API keys to generate your content.
+Our server only saves your domain name and the type of your call for logging purposes. No personal data, product info or api keys are collected or stored by the plugin developer.
+
+
+= License Service (license.actusanima.com) =
+The plugin optionally communicates with the developer’s secure license server at https://license.actusanima.com to handle license keys for paid users. It sends your site's domain and the license key you entered, to activate/validate/deactivate a paid license.
+
+
+Service provider:
+- **Actus Anima (Plugin Developer)**
+* [CopySpell AI Privacy Policy](https://copyspell.ai/privacy-policy/)
+* [CopySpell AI Terms of Service](https://copyspell.ai/terms-of-service/)
+
+
+
+= Third Party Services =
+Our plugin optionally connects directly to AI providers, when you enter an API key. It sends a call with your key to confirm it's valid. The following AI providers are supported:
+* Google AI
+* Open AI
+* Groq
+* Github
+* Naga AI
+
+
+
+
+
+
+= Source Code =
+The source code of CopySpell AI is available on Github:
+[CopySpell AI on Github](https://github.com/actusworks/copyspell-ai-public)
+
+
+
 
 = Credits =
 
 Developed by [Actus Anima](https://actus.works)
 
 **Smart AI Routing™** is a trademark of Actus Anima.
-
-CopySpell AI integrates with:
-* Google Gemini AI
-* Groq AI

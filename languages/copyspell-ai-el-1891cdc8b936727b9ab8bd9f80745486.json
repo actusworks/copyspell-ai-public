@@ -1,0 +1,18 @@
+{
+    "translation-revision-date": "2025-11-27 14:53+0200",
+    "generator": "WP-CLI\/2.11.0",
+    "source": "js\/shared\/AI\/ai-call.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "el",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "No API keys configured. Please set up your AI provider API keys in the settings.": [
+                "\u0394\u03b5\u03bd \u03ad\u03c7\u03b5\u03c4\u03b5 \u03bf\u03c1\u03af\u03c3\u03b5\u03b9 API keys. \u03a0\u03b1\u03c1\u03b1\u03ba\u03b1\u03bb\u03ce \u03c1\u03c5\u03b8\u03bc\u03af\u03c3\u03c4\u03b5 \u03c4\u03b1 API keys \u03c4\u03bf\u03c5 \u03c0\u03b1\u03c1\u03cc\u03c7\u03bf\u03c5 AI \u03c3\u03c4\u03b9\u03c2 \u03c1\u03c5\u03b8\u03bc\u03af\u03c3\u03b5\u03b9\u03c2."
+            ]
+        }
+    }
+}
